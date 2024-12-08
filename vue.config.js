@@ -1,4 +1,10 @@
-const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
-  transpileDependencies: true,
-});
+module.exports = {
+  publicPath: "/wichteln/",
+  outputDir: "./docs",
+  //pwa: {
+  //workboxPluginMode: "InjectManifest",
+  //workboxOptions: {
+  //swSrc: "src/service-worker.js",
+  //},
+  //},
+};

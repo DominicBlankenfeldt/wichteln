@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "file": "service-worker.js",
+  "sources": [
+    "../../../../AppData/Local/Temp/f02b8e8b3d0245b0495c103470da1743/service-worker.js"
+  ],
+  "sourcesContent": [
+    "import {setCacheNameDetails as workbox_core_setCacheNameDetails} from 'C:/Users/Dominic/Desktop/Workspace/losomat/losomat/node_modules/workbox-core/setCacheNameDetails.mjs';\nimport {precacheAndRoute as workbox_precaching_precacheAndRoute} from 'C:/Users/Dominic/Desktop/Workspace/losomat/losomat/node_modules/workbox-precaching/precacheAndRoute.mjs';/**\n * Welcome to your Workbox-powered service worker!\n *\n * You'll need to register this file in your web app.\n * See https://goo.gl/nhQhGp\n *\n * The rest of the code is auto-generated. Please don't update this file\n * directly; instead, make changes to your Workbox build configuration\n * and re-run your build process.\n * See https://goo.gl/2aRDsh\n */\n\n\n\n\n\nworkbox_core_setCacheNameDetails({prefix: \"losomat\"});\n\n\nself.addEventListener('message', (event) => {\n  if (event.data && event.data.type === 'SKIP_WAITING') {\n    self.skipWaiting();\n  }\n});\n\n\n\n\n/**\n * The precacheAndRoute() method efficiently caches and responds to\n * requests for URLs in the manifest.\n * See https://goo.gl/S9QRab\n */\nworkbox_precaching_precacheAndRoute([\n  {\n    \"url\": \"/wichteln/assets/Christof.jpeg\",\n    \"revision\": \"9861d102b7963fb64da0b2fccbb59193\"\n  },\n  {\n    \"url\": \"/wichteln/assets/Designer.jpeg\",\n    \"revision\": \"eedadc5ac54925b46cc9820bac0fcd53\"\n  },\n  {\n    \"url\": \"/wichteln/assets/Dominic.jpeg\",\n    \"revision\": \"4ff12411dd693f4ba3a42267fc759ada\"\n  },\n  {\n    \"url\": \"/wichteln/assets/Irek.jpeg\",\n    \"revision\": \"93388d89e031fbd891ee6b08866c9808\"\n  },\n  {\n    \"url\": \"/wichteln/assets/Kimberly.jpeg\",\n    \"revision\": \"3320f06f5d41f6019fd6e463244236fd\"\n  },\n  {\n    \"url\": \"/wichteln/assets/Lenna.jpeg\",\n    \"revision\": \"597c32b6612e1fe948eb69a33a7b8c68\"\n  },\n  {\n    \"url\": \"/wichteln/assets/Svea.jpeg\",\n    \"revision\": \"e813345d133bc5a72efdb6ba20269f71\"\n  },\n  {\n    \"url\": \"/wichteln/css/app.27988ced.css\",\n    \"revision\": null\n  },\n  {\n    \"url\": \"/wichteln/css/chunk-vendors.8a42e1de.css\",\n    \"revision\": null\n  },\n  {\n    \"url\": \"/wichteln/index.html\",\n    \"revision\": \"fe6a338ce651ec86248ce47b95ffb22c\"\n  },\n  {\n    \"url\": \"/wichteln/js/about.1e37de5c.js\",\n    \"revision\": null\n  },\n  {\n    \"url\": \"/wichteln/js/app.08f20e0c.js\",\n    \"revision\": null\n  },\n  {\n    \"url\": \"/wichteln/js/chunk-vendors.c2c51bac.js\",\n    \"revision\": null\n  },\n  {\n    \"url\": \"/wichteln/manifest.json\",\n    \"revision\": \"50c896dda28f3878f80b8aec6f274ee3\"\n  },\n  {\n    \"url\": \"/wichteln/robots.txt\",\n    \"revision\": \"b6216d61c03e6ce0c9aea6ca7808f7ca\"\n  }\n], {});\n\n\n\n\n\n\n\n\n"
+  ],
+  "names": [
+    "workbox_core_setCacheNameDetails",
+    "prefix",
+    "self",
+    "addEventListener",
+    "event",
+    "data",
+    "type",
+    "skipWaiting",
+    "workbox_precaching_precacheAndRoute",
+    "url",
+    "revision"
+  ],
+  "mappings": "0nBAiBAA,EAAAA,oBAAiC,CAACC,OAAQ,YAG1CC,KAAKC,iBAAiB,WAAYC,IAC5BA,EAAMC,MAA4B,iBAApBD,EAAMC,KAAKC,MAC3BJ,KAAKK,aACP,IAWFC,EAAAA,iBAAoC,CAClC,CACEC,IAAO,iCACPC,SAAY,oCAEd,CACED,IAAO,iCACPC,SAAY,oCAEd,CACED,IAAO,gCACPC,SAAY,oCAEd,CACED,IAAO,6BACPC,SAAY,oCAEd,CACED,IAAO,iCACPC,SAAY,oCAEd,CACED,IAAO,8BACPC,SAAY,oCAEd,CACED,IAAO,6BACPC,SAAY,oCAEd,CACED,IAAO,iCACPC,SAAY,MAEd,CACED,IAAO,2CACPC,SAAY,MAEd,CACED,IAAO,uBACPC,SAAY,oCAEd,CACED,IAAO,iCACPC,SAAY,MAEd,CACED,IAAO,+BACPC,SAAY,MAEd,CACED,IAAO,yCACPC,SAAY,MAEd,CACED,IAAO,0BACPC,SAAY,oCAEd,CACED,IAAO,uBACPC,SAAY,qCAEb,CAAA"
+}
