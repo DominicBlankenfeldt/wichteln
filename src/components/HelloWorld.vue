@@ -136,12 +136,16 @@ a {
   transform: translate(-50%, -50%);
   font-size: 60px;
   font-weight: bolder;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  //-webkit-text-stroke-width: 2px;
+  //-webkit-text-stroke-color: black;
+  text-shadow: 0px 0px 20px #000000;
 }
 .heading {
   color: green;
   font-size: 50px;
   font-weight: bolder;
+}
+img {
+  box-shadow: 0px 0px 15px #00000079;
 }
 </style>
